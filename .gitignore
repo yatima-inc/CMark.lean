@@ -1,3 +1,5 @@
+*.olean
+result*
 /build
 /lean_packages
 .vscode

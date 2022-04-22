@@ -30,5 +30,6 @@ def cmarkTarget (pkgDir : FilePath) : FileTarget :=
 
 package CMark (pkgDir) (args) {
   binName := "lean-cmark"
+  src := "./src"
   moreLibTargets := #[cmarkTarget pkgDir]
 }
